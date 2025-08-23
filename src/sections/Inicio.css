@@ -1,0 +1,93 @@
+.inicio {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+  padding-top: 2rem;
+}
+
+.inicio-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  gap: 6rem;
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+
+.texto h1 {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.texto h1 span {
+  color: var(--color-turquoise);
+}
+
+.texto p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.texto .typewriter {
+  color: var(--color-turquoise);
+  font-weight: 600;
+  border-right: 2px solid var(--color-turquoise);
+  padding-right: 0.4rem;
+  animation: typing 2s steps(20, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.botones {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-oscuro {
+  background-color: transparent;
+  color: var(--color-turquoise);
+  border: 1.5px solid var(--color-turquoise-dark);
+}
+
+.btn-claro {
+  background-color: var(--color-turquoise);
+  color: var(--color-bg);
+}
+
+.btn-oscuro:hover {
+  background-color: var(--color-turquoise);
+  color: var(--color-bg);
+}
+
+.btn-claro:hover {
+  background-color: #002b2b;
+  color: var(--color-turquoise);
+  border: 1.5px solid var(--color-turquoise-dark);
+}
+
+.foto img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 10px solid #05CECE;
+  box-shadow: 0 0 25px var(--color-turquoise);
+}

@@ -1,0 +1,134 @@
+/* src/components/Proyectos.css */
+.proyectos {
+  background-color: var(--color-bg);
+  background-image: radial-gradient(#00ffff0d 1.25px, transparent 1px);
+  background-size: 20px 20px;
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+.titulo-proyecto {
+  color: var(--color-turquoise);
+  font-size: 2.5rem;
+  margin: 4rem 0 0 0;
+}
+
+/*.categoria {
+  margin-bottom: 4rem;
+}
+
+.categoria h3 {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--color-turquoise);
+  margin-bottom: 2rem;
+}*/
+
+.categoria {
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.categoria h3 {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  
+}
+
+.categoria h3::before,
+.categoria h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.categoria h3::before {
+  left: -110px;
+}
+
+.categoria h3::after {
+  right: -110px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #001c21;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .imagen {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+  background-color: #001218;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card .imagen img:hover {
+  transform: scale(1.05);
+}
+
+.info {
+  padding: 1rem;
+  text-align: left;
+}
+
+.info h4 {
+  margin: 0.5rem 0;
+  color: var(--color-white);
+}
+
+.info p {
+  color: #cccccc;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.info button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--color-turquoise);
+  color: var(--color-bg);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.info button:hover {
+  background-color: #00c6ad;
+}

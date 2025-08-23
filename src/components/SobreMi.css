@@ -1,0 +1,42 @@
+/* src/components/SobreMi.css */
+.sobre-mi {
+  background-color: var(--color-bg);
+  background-image: radial-gradient(
+    circle at center,
+    rgba(0, 255, 255, 0.1),
+    transparent 35%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 75%;
+  text-align: center;
+  justify-items: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+
+.titulo {
+  color: var(--color-white);
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+.descripcion {
+  max-width:800px;
+  color: var(--color-white);
+  font-size: 1rem;
+  line-height: 1.8;
+  padding: 2rem;
+}
+
+.icono {
+  margin: 2.5rem 0rem 2rem 0rem;
+}
+
+.icono img {
+  width: 180px;
+  height: auto;
+  filter: invert(100%);
+  opacity: 0.9;
+}
+
