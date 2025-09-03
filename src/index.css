@@ -77,11 +77,15 @@ button:focus-visible {
   --font-main: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: var(--color-bg);
   font-family: var(--font-main);
   color: var(--color-white);
-  scroll-behavior: smooth;
+  
 }

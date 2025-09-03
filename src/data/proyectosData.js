@@ -68,15 +68,7 @@ const proyectosMovil = [
     demo: ProyectoLink,
     linkDemo: EvalHTAVideo
   },
-  {
-    id: 6,
-    titulo: "IMC Calculator",
-    descripcion: "Página Web para calcular el Índice de Masa Corporal (IMC) con recomendaciones personalizadas.",
-    imagen: "",
-    tecnologias: ["HTML", "CSS", "JavaScript"],
-    linkFrontend: "#",
-    linkBackend: "#"
-  }
+  
   
 ];
 
