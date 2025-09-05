@@ -17,8 +17,8 @@ const proyectosWeb = [
     imagen: PropredictImg,
     funcionalidades: ["Funcionalidad 1", "Funcionalidad 2", "Funcionalidad 3"],
     tecnologias: ["HTML", "CSS", "JavaScript", "Python", "FastAPI", "Machine Learning"],
-    linkFrontend: "#",
-    linkBackend: "#",
+    linkFrontend: "https://github.com/Svaella/pro_predict_frontend.git",
+    linkBackend: "https://github.com/Svaella/pro_predict_backend.git",
     demo: ProyectoLink,
     linkDemo: "https://cute-puppy-e35046.netlify.app/"
   },
